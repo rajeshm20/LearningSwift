@@ -39,9 +39,8 @@ print("the result is-------->", result)
 } catch MycalcError.DividByZero {
     
     print("You can't divide by zero")
-}
-
-catch MycalcError.DividByOne {
+    
+}catch MycalcError.DividByOne {
     
     print("You can't divide by one also")
 }
